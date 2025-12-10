@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background-image: url(japan-background-digital-art.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        /* --- TOP LEFT LOGOUT BUTTON --- */
+        .top-left-btn {
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            background: #000;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 16px;
+            z-index: 1000;
+        }
+        .top-left-btn:hover {
+            opacity: 0.85;
+        }
+
+        header {
+            background: rgba(0,0,0,0.6);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+        .hero {
+            text-align: center;
+            padding: 90px 20px;
+            background: rgba(0,0,0,0.4);
+        }
+        .hero h1 {
+            font-size: 42px;
+            font-weight: 300;
+        }
+        .hero p {
+            font-size: 18px;
+            max-width: 650px;
+            margin: auto;
+        }
+        .buttons a {
+            text-decoration: none;
+            background: #000;
+            color: white;
+            padding: 12px 22px;
+            border-radius: 8px;
+            margin: 0 10px;
+            display: inline-block;
+            margin-top: 25px;
+        }
+        .buttons a:hover {
+            opacity: 0.85;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- LOGOUT BUTTON -->
+    <a href="Login.html" class="top-left-btn">Logout</a>
+
+    <header>Welcome to My Portfolio</header>
+
+    <div class="hero">
+        <h1>Hello, I'm Jimwell</h1>
+        <p>Welcome to my portfolio website showcasing my skills, projects, and contact information.</p>
+
+        <div class="buttons">
+            <a href="Aboutme.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+    </div>
+
+</body>
+</html>
