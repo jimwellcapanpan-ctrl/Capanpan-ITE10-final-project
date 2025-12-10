@@ -32,7 +32,11 @@
             let user = document.getElementById("username").value;
             let pass = document.getElementById("password").value;
 
-            window.location.href = "Home.html";
+            if (user === "admin" && pass === "1234") {
+                window.location.href = "home.Html"; 
+            } else {
+                document.getElementById("error").innerText = "Invalid username or password.";
+            }
         }
     </script>
 </body>
